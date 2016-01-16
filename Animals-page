@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+#div1 {width:240px;height:130px;padding:10px;border:1px solid #aaaaaa; margin-left: auto ;margin-right: auto ;  background-color: #FFFF33;}
+#div2 {width:240px;height:130px;padding:10px;border:1px solid #aaaaaa; margin-left: auto ;margin-right: auto ; background-color: #FFFF33;}
+p { color:#FF0000; font-size:40px; font-family:Comic Sans MS; text-align: center;}
+table {background-color:#33CC99; border:5px solid white;}
+td { padding: 15px; border : 5px solid black;}
+</style>
+
+<script>
+var lion = new Audio();
+lion.src = "lion.mp3";
+var dog = new Audio();
+dog.src = "dog.mp3";
+
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+}
+</script>
+</head>
+
+<body bgcolor="#FF3300">
+<table >
+<nav>
+
+<tr><td><a href="#" onmousedown="lion.play()"><p> Lion</p></a>
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<br>
+<img src="lion.jpg" id="drag1" draggable="true" ondragstart="drag(event)" width="240" height="130">
+<img src="tiger.jpg" draggable="false" width="240" height="130"><br>
+<img src="rabbit.jpg" draggable="false" width="240" height="130">
+<img src="elephant.jpg" draggable="false" width="240" height="130">
+
+</td>
+
+<td><a href="#" onmousedown="dog.play()"><p>Dog</p></a>
+
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<br>
+<img src="cat.jpg" draggable="false" width="240" height="130">
+<img src="lion.jpg" draggable="false" width="240" height="130"><br>
+<img src="dog.jpg" id="drag2" draggable="true" ondragstart="drag(event)" width="240" height="130">
+<img src="rabbit.jpg" draggable="false" width="240" height="130">
+</td>
+
+<td><a href="for-second-page"><img src="next.png" width="200" height="100" alt="next button"/></a></td>
+
+</tr>
+
+
+
+
+</nav>
+</table>
+</body>
+</html>
