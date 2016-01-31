@@ -1,0 +1,131 @@
+<!DCOTYPE html>
+<html>
+	<head>
+		<title>The Leopard: Children Learning System</title>
+		
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+		
+		<style>
+			body{
+				background: url("junglebg.jpg") no-repeat center fixed;
+				background-size: cover;
+			}
+			
+			#signinbox{background-color: #CC0000;}
+			
+			#signin{text-align: left; background-color: #CC0000; color: white;}
+			#signin:hover{background-color: #FFFFFF; color: black; cursor:pointer;}
+			
+			.button{
+				font-size: 20px;
+				padding: 10px;
+				border: none;
+			}
+			
+			#box{
+				background-color: rgba(255, 255, 255, 0.5);
+				width: 500px;
+				border-radius: 25px;
+				margin: auto;
+			}
+			
+			#logo{
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 150px;
+				margin-bottom: 0px;
+				width: 90%;
+			}
+			
+			#menucontainer{
+				/*background-color: red;*/
+			
+			}
+			
+			.dropbtn {
+				background-color: #FF6600;
+				color: white;
+				font-size: 1.6em;
+				padding: 20px;
+				width: 400px;
+				display: block;
+				cursor: pointer;
+				border: none;
+			}
+			
+			.menu {
+				position: relative;
+				display: block;
+				width: 400px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 0px;
+				margin-bottom: 0px;
+			}
+			
+			.content {
+				font-size: 1.2em;
+				font-family: Arial;
+				text-align: center;
+				display: none;
+				position: absolute;
+				background-color: #f9f9f9;
+				min-width: 100%;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+				margin-left: auto;
+				margin-right: auto;
+			}
+			
+			.content a {
+				color: black;
+				padding: 12px 16px;
+				text-decoration: none;
+				display: block;
+			}
+			
+			.content a:hover {background-color: #00FF33 }
+			
+			.menu:hover .content {
+				display: block;
+			}
+			
+			.menu:hover .dropbtn {
+				background-color: #FFFFFF;
+				color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			<div id="imgcontainer">
+				<img id="logo" src="theleopard.png"/>	
+			</div>
+			<br>
+			<div id="menucontainer">
+				<div class="menu" style="z-index:1;">
+				<button class="dropbtn" id="color1"><i class="fa fa-bars"></i> &nbsp; Matching Games</button>
+					<div class="content">
+						<a href="">Animal</a>
+						<a href="">Color</a>
+						<a href="">Fruit</a>
+					</div>
+				</div>
+				<br>
+				<div class="menu">
+				<button class="dropbtn" id="color2"><i class="fa fa-bars"></i> &nbsp; Numbers Games</button>
+					<div class="content">
+						<a href="">Addition</a>
+						<a href="">Subtraction</a>
+						<a href="">Multiplication</a>
+						<a href="">Division</a>
+					</div>
+				</div>
+				<br>
+				<div id="signinbox">
+					<h2><a href=""><button class="button" id="signin"><i class="fa fa-sign-in"></i> Sign In</button></a></h2>
+				</div>
+			</div>
+		</div>		
+	</body>
+</html>
