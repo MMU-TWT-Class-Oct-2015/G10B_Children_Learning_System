@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fruit</title>
+<style type="text/css">
+body {
+  background-image:url("tree.jpg");
+  background-size: 1400px 650px;
+  background-repeat: no-repeat;
+      }
+  #div1
+  {width:150px;height:50px;padding:10px;border:1px solid #aaaaaa;}
+</style>
+<script type ="text/javascript">
+function drag(ev) {
+  ev.dataTransfer.setData("Text",ev.target.id);
+}
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+function drop(ev) {
+  var data = ev.dataTransfer.getData("Text");
+  ev.target.appendChild(document.getElementById(data));
+  ev.preventDefault();
+}
+</script>
+</head>
+<body>
+  <h1><center>Q1</center></h1>
+  <h2><center>Choose the correct name for the fruit:</center></h2>
+  <center>
+    <img src="apple.jpg" width="250" height="250" align="middle"/><br>
+  <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  </center>
+  <table>
+    <tr>
+<td><p id ="drag1" draggable="true" ondragstart="drag(event)">Apple</p></td>
+<td><p id ="drag1" draggable="true" ondragstart="drag(event)">Orange</p></td>
+<td><p id ="drag1" draggable="true" ondragstart="drag(event)">Grapes</p></td>
+<td><p id ="drag1" draggable="true" ondragstart="drag(event)">Banana</p></td>
+</tr>
+</table>
+</body>
+</html>
