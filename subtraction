@@ -1,0 +1,108 @@
+<DOCTYPE! HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Calculation</title>
+  <style>
+    span{
+        float:left;
+        padding: 50px 50px 0px 50px;
+        margin-right: 20px;
+        border-color: black;
+        border-style: solid;
+        background-color:#9999FF;
+        color: black;
+        font-size: 40pt;
+        weight:100px;
+        height:100px;
+
+      }
+    body{
+      background-repeat:no-repeat;
+      background-size:cover;
+  }
+  p1 {
+      font-size: 70pt;
+  }
+  .d1{background-color:#9999FF;
+      font-style: sans-serif,monospace;
+      font-size: 40pt;
+      color:white;
+      border:3px black solid;
+      padding: 10px 0px 0px 0px;
+      text-align: center;
+    }
+   .d2{
+      font-style: sans-serif,monospace;
+      font-size: 20pt;
+      color:white;
+      border:6px black double;
+      background-color: black;
+      background-repeat:no-repeat;
+      background-size: cover;
+    }
+   hide{display: none;
+       visibility: hidden;
+      }
+  </style>
+  <script type="text/javascript">
+    var counter=1;
+    function subtraction(){
+
+          var num1 = Math.floor(Math.random()*100);
+          var num2 = Math.floor(Math.random()*100);
+          var sum  = 0;
+          if(num2 > num1){
+            num2=Math.floor(Math.random()*100);
+          }
+          document.getElementById("subnum1").innerHTML = num1;
+          document.getElementById("subnum2").innerHTML = num2;
+          sum = num1 - num2;
+          document.getElementById("sum1").innerHTML = sum;
+          document.sub1.start1.value="Next Question";
+          document.sub1.start1.disabled=true;
+          document.getElementById("qnum").innerHTML= "Q"+counter;
+          counter++;
+    }
+
+   function subtraction2(sum){
+    var x = parseInt(document.sub1.suball.value);
+    if(x==document.getElementById("sum1").innerHTML){
+      alert("You are correct!!");
+      document.sub1.suball.value="";
+    }
+    else if (document.sub1.suball.value=="") {
+      alert("Please click the <Start question!>")
+    }
+    else{
+      alert("You are wrong!!");
+      document.sub1.suball.value="";
+    }
+    document.sub1.start1.disabled=false;
+    if(counter>11)
+    {
+        alert("You Have Finished THIS QUIZ!!");
+    }
+  }
+
+  </script>
+</head>
+<body>
+
+  <form name="sub1">
+    <p1>Subtraction Quiz</p1>
+    <br><br><br><br>
+    <span id="qnum"></span>
+    <span><label id="subnum1"></label></span>
+    <span>-</span>
+    <span><label id="subnum2"></span></d1>
+    <span>=</span>
+    <input type="text" class="d1" name="suball" value="" size=3 style="width:150px;height:155px;"><br><br><br><br>
+    <input type="button" class="d2" value="Start question!" name="start1" onclick="subtraction()">
+    <input type="button" class="d2" value="Check answer!" name="check" onclick="subtraction2()">
+    <input type="reset" class="d2" value="Clear" name="reset">
+    <hide><label id="sum1"></label></hide>
+  </form>
+
+</body>
+</html>
