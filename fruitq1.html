@@ -4,10 +4,19 @@
 <title>Fruit</title>
 <style type="text/css">
 body {
-  background-color:skyblue;
+  background-image:url("b2.jpg");
       }
+p {
+  font-size:14pt; font-family: tahoma;
+}
+table {
+  background-color:pink; border:5px solid white;
+}
+td {
+  padding: 15px; border : 5px solid black;
+}
   #div1
-  {width:150px;height:50px;padding:10px;border:1px solid #aaaaaa;}
+  {width:120px;height:40px;padding:10px;border:2px solid #aaaaaa;}
 </style>
 <script type ="text/javascript">
 function drag(ev) {
@@ -24,7 +33,7 @@ function drop(ev) {
 </script>
 </head>
 <body>
-  <h1>Q1</h1>
+  <h1>Q1   <a href="fruitq2.html"><img src="next.jpg" width="100" height="50" alt="next button" align="right"/></a></h1>
   <h2><center>Choose the correct name for the fruit:</center></h2>
   <center>
     <img src="apple.jpg" width="250" height="250" align="middle"/><br>
@@ -32,10 +41,10 @@ function drop(ev) {
   <table>
     <tr>
 <td><p id ="drag1" draggable="true" ondragstart="drag(event)">Apple</p></td>
-<td><p id ="drag1" draggable="true" ondragstart="drag(event)">Orange</p></td></tr>
+<td><p id ="drag2" draggable="true" ondragstart="drag(event)">Orange</p></td></tr>
 <tr>
-<td><p id ="drag1" draggable="true" ondragstart="drag(event)">Grapes</p></td>
-<td><p id ="drag1" draggable="true" ondragstart="drag(event)">Banana</p></td>
+<td><p id ="drag3" draggable="true" ondragstart="drag(event)">Grapes</p></td>
+<td><p id ="drag4" draggable="true" ondragstart="drag(event)">Banana</p></td>
 </tr>
 </table>
 </center>
