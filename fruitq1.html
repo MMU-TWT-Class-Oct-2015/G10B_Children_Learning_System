@@ -19,6 +19,8 @@ td {
   {width:120px;height:40px;padding:10px;border:2px solid #aaaaaa;}
 </style>
 <script type ="text/javascript">
+var apple=new Audio();
+apple.src="apple.mp3";
 function drag(ev) {
   ev.dataTransfer.setData("Text",ev.target.id);
 }
@@ -36,7 +38,7 @@ function drop(ev) {
   <h1>Q1   <a href="fruitq2.html"><img src="next.jpg" width="100" height="50" alt="next button" align="right"/></a></h1>
   <h2><center>Choose the correct name for the fruit:</center></h2>
   <center>
-    <img src="apple.jpg" width="250" height="250" align="middle"/><br>
+    <img src="apple.jpg" width="250" height="250" align="middle" onmouseover="apple.play()"/>
   <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
   <table>
     <tr>
