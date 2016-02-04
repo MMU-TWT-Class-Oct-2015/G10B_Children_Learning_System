@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <script>
 var lion = new Audio();
 lion.src = "lion.mp3";
