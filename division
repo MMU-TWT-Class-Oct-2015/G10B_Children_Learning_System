@@ -61,6 +61,8 @@
             document.getElementById("sum1").innerHTML = sum;
             document.div1.start1.value="Next Question";
             document.div1.start1.disabled=true;
+            document.div1.divall.value="";
+            document.div1.divall.disabled=false;
             document.getElementById("qnum").innerHTML= "Q"+counter;
             counter++;
           if(counter>11)
@@ -73,14 +75,14 @@
     var x = parseInt(document.div1.divall.value);
     if(x==document.getElementById("sum1").innerHTML){
       alert("You are correct!!");
-      document.div1.divall.value="";
+      document.div1.divall.disabled=true;
     }
     else if (document.div1.divall.value=="") {
-      alert("Please click the <Start question!>")
+      alert("Please fill in your answer!!");
     }
     else{
       alert("You are wrong!!");
-      document.div1.divall.value="";
+      document.div1.divall.disabled=true;
     }
     document.div1.start1.disabled=false;
 
