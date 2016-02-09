@@ -59,6 +59,8 @@
           document.getElementById("sum1").innerHTML = sum;
           document.add1.start1.value="Next Question";
           document.add1.start1.disabled=true;
+          document.add1.addall.disabled=false;
+          document.add1.addall.value="";
           document.getElementById("qnum").innerHTML= "Q"+counter;
           counter++;
     }
@@ -67,14 +69,14 @@
     var x = parseInt(document.add1.addall.value);
     if(x==document.getElementById("sum1").innerHTML){
       alert("You are correct!!");
-      document.add1.addall.value="";
+      document.add1.addall.disabled=true;
     }
     else if (document.add1.addall.value=="") {
-      alert("Please click the <Start question!>")
+      alert("Please fill in your answer!!")
     }
     else{
       alert("You are wrong!!");
-      document.add1.addall.value="";
+      document.add1.addall.disabled=true;
     }
     document.add1.start1.disabled=false;
     if(counter>11)
