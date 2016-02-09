@@ -72,7 +72,7 @@
       document.add1.addall.disabled=true;
     }
     else if (document.add1.addall.value=="") {
-      alert("Please fill in your answer!!")
+      alert("Please fill in your answer!!");
     }
     else{
       alert("You are wrong!!");
