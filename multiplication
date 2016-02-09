@@ -58,6 +58,8 @@
           document.getElementById("sum1").innerHTML = sum;
           document.mul1.start1.value="Next Question";
           document.mul1.start1.disabled=true;
+          document.mul1.mulall.disabled=false;
+          document.mul1.mulall.value="";
           document.getElementById("qnum").innerHTML= "Q"+counter;
           counter++;
     }
@@ -66,14 +68,14 @@
     var x = parseInt(document.mul1.mulall.value);
     if(x==document.getElementById("sum1").innerHTML){
       alert("You are correct!!");
-      document.mul1.mulall.value="";
+      document.mul1.mulall.disabled=true;
     }
     else if (document.mul1.mulall.value=="") {
-      alert("Please click the <Start question!>")
+      alert("Please fill in your answer!!");
     }
     else{
       alert("You are wrong!!");
-      document.mul1.mulall.value="";
+      document.mul1.mulall.disabled=true;
     }
     document.mul1.start1.disabled=false;
     if(counter>11)
