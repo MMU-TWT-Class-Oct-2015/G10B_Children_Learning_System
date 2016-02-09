@@ -74,7 +74,7 @@
       document.sub1.suball.disabled=true;
     }
     else if (document.sub1.suball.value=="") {
-      alert("Please fill in your answer!!")
+      alert("Please fill in your answer!!");
     }
     else{
       alert("You are wrong!!");
