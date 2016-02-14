@@ -35,7 +35,8 @@
 		$sub_hs = $result[8];
 		$mul_hs = $result[9];
 		$div_hs = $result[10];
-		$total_hs = $result[11] . '/700';
+		$totalsum= $col_hs + $fru_hs + $ani_hs + $add_hs + $sub_hs + $mul_hs + $div_hs;
+		$total_hs = $totalsum . '/700';
 		
 		$change = '';
 		if(isset($_POST['chgPwdMenu'])){
