@@ -32,7 +32,6 @@
        background-color:#9999FF;
        color: black;
        font-size: 40pt;
-       weight:100px;
        height:100px;
 
      }
@@ -45,7 +44,6 @@
        background-color:#9999FF;
        color: black;
        font-size: 40pt;
-       weight:100px;
        height:100px;
 
        }
