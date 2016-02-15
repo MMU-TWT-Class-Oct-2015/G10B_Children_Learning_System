@@ -98,3 +98,9 @@ computer application. By using an attractive graphical user interface and multim
 
 **Screenshot**
 <p>![animal1](https://cloud.githubusercontent.com/assets/16029049/13041761/07ad2e12-d3f5-11e5-9304-9d510972b2ba.jpg)</p>
+<p>![animal2](https://cloud.githubusercontent.com/assets/16029049/13041762/07b2683c-d3f5-11e5-9c66-12d2406023a1.jpg)</p>
+<p>![animal3](https://cloud.githubusercontent.com/assets/16029049/13041763/07b8400e-d3f5-11e5-95bb-900c2b46c056.jpg)</p>
+<p>![animalinstruction](https://cloud.githubusercontent.com/assets/16029049/13041764/07c0370a-d3f5-11e5-8547-536289034bb5.jpg)</p>
+<p>![colour1](https://cloud.githubusercontent.com/assets/16029049/13041765/07c45506-d3f5-11e5-98dc-1c17e192310f.jpg)</p>
+<p>![colour2](https://cloud.githubusercontent.com/assets/16029049/13041766/07cf639c-d3f5-11e5-94cf-47d0da8b2729.jpg)</p>
+<p>![colour3](https://cloud.githubusercontent.com/assets/16029049/13041767/0837575e-d3f5-11e5-9ed3-266a30ee07f8.jpg)</p>
