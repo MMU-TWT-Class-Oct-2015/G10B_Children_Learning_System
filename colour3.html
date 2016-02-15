@@ -2,7 +2,7 @@
 <html>
 <head>
 <style>
-#div1 {width:240px;height:130px;padding:10px;border:1px solid #aaaaaa; margin-left: auto ;margin-right: auto ;  background-color: #FFFFFF;font-size:20px; font-family:Georgia; text-align: center;}
+#div1 {width:240px;height:130px;padding:10px;border:1px solid #aaaaaa; margin-left: auto ;margin-right: auto ;  background-color: #FFFFFF;}
 
 p { color:#FF0000; font-size:40px; font-family:Comic Sans MS; text-align: center;}
 body {background: url("star.jpg"); no-repeat center fixed;background-size: cover;}
@@ -44,7 +44,7 @@ function drop(ev) {
 
 <tr><td><<p>Which one is Blue colour?</p></a>
 
-<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">Drag into here</div>
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 <br>
 <img id="drag1" src="yellow.jpg"  draggable="true" ondragstart="drag(event)" width="240" height="130" >
 <img id="drag2" src="red.jpg"  draggable="true" ondragstart="drag(event)"  width="240" height="130" ><br>
