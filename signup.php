@@ -63,6 +63,8 @@
 					if(mysql_num_rows($emailcheck) == 0){
 						$command = "INSERT INTO `profile` (`user_name`, `password`, `email`) VALUES ('$username', '$encryptpwd', '$email');";
 						if(mysql_query($command, $connect)){
+							$temp = "INSERT INTO `temp` (`user_name`) VALUES ('$username');";
+							mysql_query($command, $temp) or die(mysql_error());
 							echo "<script type='text/javascript'>alert('You have registered successfully! Please continue to log in.');</script>";
 							echo '<meta http-equiv="refresh" content= "0;url=http://localhost/cls/login.php" />';
 						}else{ die(mysql_error()); }
