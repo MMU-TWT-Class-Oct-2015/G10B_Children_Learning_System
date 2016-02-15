@@ -313,6 +313,26 @@
 	<table id="score">
 		<thead>
 			<tr>
+				<td>Matching Games</td>
+				<td></td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Animal</td>
+				<td><a href="animalinstruction.html" target="_self">Play!</a></td>
+			</tr>
+			<tr>
+				<td>Colour</td>
+				<td><a href="colour1.html" target="_self">Play!</a></td>
+			</tr>
+			<tr>
+				<td>Fruit</td>
+				<td><a href="fruitq1.html" target="_self">Play!</a></td>
+			</tr>
+		</tbody>
+		<thead>
+			<tr>
 				<td>Numbers Games</td>
 				<td>Highscore</td>
 				<td></td>
