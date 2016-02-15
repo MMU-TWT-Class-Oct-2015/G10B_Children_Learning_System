@@ -323,17 +323,17 @@
 			<tr>
 				<td>Animal</td>
 				<td><?php echo $ani_hs; ?></td>
-				<td><a href="" target="_self">Play!</a></td>
+				<td><a href="animalinstruction.html" target="_self">Play!</a></td>
 			</tr>
 			<tr>
 				<td>Colour</td>
 				<td><?php echo $col_hs; ?></td>
-				<td><a href="" target="_self">Play!</a></td>
+				<td><a href="colour1.html" target="_self">Play!</a></td>
 			</tr>
 			<tr>
 				<td>Fruit</td>
 				<td><?php echo $fru_hs; ?></td>
-				<td><a href="" target="_self">Play!</a></td>
+				<td><a href="fruitq1.html" target="_self">Play!</a></td>
 			</tr>
 		</tbody>
 		<thead>
@@ -347,22 +347,22 @@
 			<tr>
 				<td>Addition</td>
 				<td><?php echo $add_hs; ?></td>
-				<td><a href="" target="_self">Play!</a></td>
+				<td><a href="addition.php" target="_self">Play!</a></td>
 			</tr>
 			<tr>
 				<td>Subtraction</td>
 				<td><?php echo $sub_hs; ?></td>
-				<td><a href="" target="_self">Play!</a></td>
+				<td><a href="subtraction.php" target="_self">Play!</a></td>
 			</tr>
 			<tr>
 				<td>Multiplication</td>
 				<td><?php echo $mul_hs; ?></td>
-				<td><a href="" target="_self">Play!</a></td>
+				<td><a href="multiplication.php" target="_self">Play!</a></td>
 			</tr>
 			<tr>
 				<td>Division</td>
 				<td><?php echo $div_hs; ?></td>
-				<td><a href="" target="_self">Play!</a></td>
+				<td><a href="division.php" target="_self">Play!</a></td>
 			</tr>
 		</tbody>
 		<tfoot>
