@@ -1,13 +1,20 @@
 #G10B_Children_Learning_System
-**<p>MULTIMEDIA UNIVERSITY</p>**
-**<p>FACULTY OF INFORMATION SCIENCE AND TECHNOLOGY</p>**
-**<p>TWT 2231 WEB TECHNIQUES AND APPLICATIONS</p>**
-**<p>TRIMESTER 2, 2015/2016</p>**
 
-_<p>Project title: Children Learning System</P>_
-_<p>Tutorial Group: G10B</p>_
-_<p>Lab tutor: Mr. Nima Saed</p>_
-_<p>Project members:</p>_	
+**MULTIMEDIA UNIVERSITY**
+
+**FACULTY OF INFORMATION SCIENCE AND TECHNOLOGY**
+
+**TWT 2231 WEB TECHNIQUES AND APPLICATIONS**
+
+**TRIMESTER 2, 2015/2016**
+
+_Project title: Children Learning System_
+
+_Tutorial Group: G10B_
+
+_Lab tutor: Mr. Nima Saed_
+
+_Project members:_	
 
 Name | Student
 -----|--------
@@ -17,7 +24,8 @@ Syahrul Hakimi bin Abdullah | 1141327615
 Koo Hou Wai | 1141326401
 
 **Introduction**
-<p>This system is created to help children to gain some basic knowledge by using interactive computer application. The target users are mainly children of ages between 4 to 10 years.  The application includes interactive exercise to learn and assess some basic knowledge about numbers, simple mathematical operations, and matching objects with their names. This system works based on suitable material for children to learn with help of using pictures, sounds, and text.</p>
+
+This system is created to help children to gain some basic knowledge by using interactive computer application. The target users are mainly children of ages between 4 to 10 years.  The application includes interactive exercise to learn and assess some basic knowledge about numbers, simple mathematical operations, and matching objects with their names. This system works based on suitable material for children to learn with help of using pictures, sounds, and text.
 
 **Objectives**
 
@@ -60,6 +68,19 @@ The objectives of this project are:
 
 This project were created using HTML5, CSS, JavaScript, PHP and MySQL Database.
 
+**How to run this system**
+
+By using the complete files contain all coding of **Children Learning System** including all the HTML5, CSS, JavaScript, PHP, and table has been created inside MySQL for keeping data regarding user information, such as name, password, email and their high score.  Open the XAMPP Control Panel and run the MySQL. Before accessing the data in the MySQL database, ensure that it has connected to the server. User can start to use once all the file in PHP connected and use it as mention above.
+
+Before using this application, users need to sign up an account to be able to log in into this system.  The sign up requires username, password and email. Once the users have registered, a user profile will create. Next, they can log in using their own username and password. Successful log in will lead them to the homepage where they will be given the choice to enter the matching menu or the numbers menu.
+
+If user clicks on the matching menu, there will be three categories to choose from, Animals, Colours, and Fruits. After selecting, based on a category, the user will view objects and names and they will match every object to its name using click and drag. There will a total of 10 questions in each category. User may be able to click on the words of the objects name or image and hints will be given in audio form.  
+
+Otherwise if user clicks on numbers menu, there will be the following options; addition/subtraction, and multiplication/division. When user chose one of the following, there will be 10 questions in each option. User is expected to solve the mathematical operation and type the answer in the answer box provided. Every correct answer will carry 10 mark and no marks will be given for each question they answer wrongly. After users answer all the questions, the accumulate marks will appear and save into the database. When the user log in again or play again the application, the system will show the highest mark that the users has obtained previously and compare with the current mark that the users get after answering all the questions. 
+
+User may log out by click on log out button after they have finish using the system to prevent anyone from using their profile account on application for this system.
+
+If user forgot their password, they can click on “forgot password” button. User needs to enter their email address and a new password will be sent to their email address. 
 
 
 **Contribution of the Project**
