@@ -97,10 +97,22 @@ Lee Kit Yee |	Fruits Application,MySQL Database,report markdown
 computer application. By using an attractive graphical user interface and multimedia components such as sounds, images and text together with the clarity of the text, size, colours and material are going to attract and help children to learn the basic knowledge in more exciting and interesting way.</p>
 
 **Screenshot**
-<p>![animal1](https://cloud.githubusercontent.com/assets/16029049/13041761/07ad2e12-d3f5-11e5-9304-9d510972b2ba.jpg)</p>
-<p>![animal2](https://cloud.githubusercontent.com/assets/16029049/13041762/07b2683c-d3f5-11e5-9c66-12d2406023a1.jpg)</p>
-<p>![animal3](https://cloud.githubusercontent.com/assets/16029049/13041763/07b8400e-d3f5-11e5-95bb-900c2b46c056.jpg)</p>
-<p>![animalinstruction](https://cloud.githubusercontent.com/assets/16029049/13041764/07c0370a-d3f5-11e5-8547-536289034bb5.jpg)</p>
-<p>![colour1](https://cloud.githubusercontent.com/assets/16029049/13041765/07c45506-d3f5-11e5-98dc-1c17e192310f.jpg)</p>
-<p>![colour2](https://cloud.githubusercontent.com/assets/16029049/13041766/07cf639c-d3f5-11e5-94cf-47d0da8b2729.jpg)</p>
-<p>![colour3](https://cloud.githubusercontent.com/assets/16029049/13041767/0837575e-d3f5-11e5-9ed3-266a30ee07f8.jpg)</p>
+![animal1](https://cloud.githubusercontent.com/assets/16029049/13041761/07ad2e12-d3f5-11e5-9304-9d510972b2ba.jpg)
+![animal2](https://cloud.githubusercontent.com/assets/16029049/13041762/07b2683c-d3f5-11e5-9c66-12d2406023a1.jpg)
+![animal3](https://cloud.githubusercontent.com/assets/16029049/13041763/07b8400e-d3f5-11e5-95bb-900c2b46c056.jpg)
+![animalinstruction](https://cloud.githubusercontent.com/assets/16029049/13041764/07c0370a-d3f5-11e5-8547-536289034bb5.jpg)
+![colour1](https://cloud.githubusercontent.com/assets/16029049/13041765/07c45506-d3f5-11e5-98dc-1c17e192310f.jpg)
+![colour2](https://cloud.githubusercontent.com/assets/16029049/13041766/07cf639c-d3f5-11e5-94cf-47d0da8b2729.jpg)
+![colour3](https://cloud.githubusercontent.com/assets/16029049/13041767/0837575e-d3f5-11e5-9ed3-266a30ee07f8.jpg)
+![frui](https://cloud.githubusercontent.com/assets/11754836/13042000/52d1c34c-d3f7-11e5-9a34-a2f664cec343.png)
+![fruit](https://cloud.githubusercontent.com/assets/11754836/13042005/5b048cb6-d3f7-11e5-8868-fb63fc9e39b3.png)
+![fruit1](https://cloud.githubusercontent.com/assets/11754836/13042006/5cf827d0-d3f7-11e5-9886-ceabacd6e623.png)
+![homepage](https://cloud.githubusercontent.com/assets/16029050/13041892/6e083390-d3f6-11e5-9aa0-1a4e523836cf.png)
+![login](https://cloud.githubusercontent.com/assets/16029050/13041909/90c02974-d3f6-11e5-8be1-ebfc46703a40.png)
+![signup](https://cloud.githubusercontent.com/assets/16029050/13041912/94088284-d3f6-11e5-89e2-3bde0d185147.png)
+![forgotpwd](https://cloud.githubusercontent.com/assets/16029050/13041913/9683fa34-d3f6-11e5-8340-a6ef83b7647d.png)
+![add](https://cloud.githubusercontent.com/assets/16029050/13042041/a02c0aa8-d3f7-11e5-8003-e864bcda8da6.png)
+![div](https://cloud.githubusercontent.com/assets/16029050/13042043/a987fb2a-d3f7-11e5-846b-ed20bc457e89.png)
+![mul](https://cloud.githubusercontent.com/assets/16029050/13042044/a98f005a-d3f7-11e5-9a43-287e27e8243b.png)
+![sub](https://cloud.githubusercontent.com/assets/16029050/13042045/a994f406-d3f7-11e5-8e08-34eca26a0609.png)
+
