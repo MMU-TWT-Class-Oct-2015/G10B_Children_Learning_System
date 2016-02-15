@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+#div1 {width:240px;height:130px;padding:10px;border:1px solid #aaaaaa; margin-left: auto ;margin-right: auto ;  background-color: #FFFFFF;}
+
+p { color:#FF0000; font-size:40px; font-family:Comic Sans MS; text-align: center;}
+body {background: url("star.jpg"); no-repeat center fixed;background-size: cover;}
+table {background: url("wood.jpg"); border:5px solid white;}
+td { padding: 15px; border : 5px solid black;}
+</style>
+
+<script>
+
+
+function allowDrop(ev) {
+    ev.preventDefault();
+	
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+	}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("Text");
+  ev.target.appendChild(document.getElementById(data));
+  if (ev.dataTransfer.getData('Text')=='drag1')
+  {alert("correct!"); }
+	else
+  {alert("wrong!");}
+
+}
+
+ 
+</script>
+</head>
+
+<body>
+<center>
+<table>
+<nav>
+
+
+<tr><td><p>Which one is Red colour?</p></a>
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<br>
+<img id="drag1" src="red.jpg"  draggable="true" ondragstart="drag(event)" width="240" height="130" alt="lion">
+<img id="drag2" src="black.jpg"  draggable="true" ondragstart="drag(event)"  width="240" height="130" alt="tiger"><br>
+<img id="drag3" src="blue.jpg"  draggable="true" ondragstart="drag(event)"  width="240" height="130" alt="rabbit">
+<img id="drag4" src="purple.jpg"  draggable="true" ondragstart="drag(event)"  width="240" height="130" alt="elephant">
+
+
+
+</td>
+
+
+
+<td><a href="colour3.html"><img src="nextcolor.png" width="200" height="100" alt="next button"/></a></td>
+
+</tr>
+
+
+
+
+</nav>
+</table>
+</center>
+</body>
+</html>
+
