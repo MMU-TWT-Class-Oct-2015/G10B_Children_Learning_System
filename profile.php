@@ -35,6 +35,8 @@
 		$totalsum = $add_hs + $sub_hs + $mul_hs + $div_hs;
 		$total_hs = $totalsum . '/700';
 		
+		$query2 = mysql_query("UPDATE profile SET total_hs = '$total_hs' WHERE user_name='$username';", $connect) or die(mysql_error());
+		
 		$change = '';
 		if(isset($_POST['chgPwdMenu'])){
 			$change = '
