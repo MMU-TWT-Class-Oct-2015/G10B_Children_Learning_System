@@ -22,7 +22,8 @@
 			$invalid = mysql_query("SELECT * FROM profile WHERE user_name='$username' OR password='$encryptpwd'", $connect) or die(mysql_error());
 			
 			if(mysql_num_rows($valid) == 1){
-				mysql_close($connect); 
+				$temp = "UPDATE `temp` SET score = '0' WHERE user_name = '$username'; ";
+				mysql_query($temp, $connect) or die(mysql_error());
 				session_start();
 				$_SESSION['user_name'] = $username;
 				$_SESSION['user_password'] = $encryptpwd;
