@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fruit</title>
+<style type="text/css">
+body {
+  background-image:url("b2.jpg");}
+p {
+  font-size:14pt; font-family: tahoma;
+}
+table {
+  background-color:pink; border:5px solid white;
+}
+td {
+   padding: 15px; border : 5px solid black;
+ }
+  #div1
+  {width:120px;height:40px;padding:15px;border:2px solid #aaaaaa;}
+</style>
+<script type ="text/javascript">
+var cherries=new Audio();
+cherries.src="cherries.mp3";
+function drag(ev) {
+  ev.dataTransfer.setData("Text",ev.target.id);
+}
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("Text");
+  ev.target.appendChild(document.getElementById(data));
+  if (ev.dataTransfer.getData('Text')=='drag3')
+  {alert("correct!"); }
+	else
+  {alert("wrong!");}
+}
+</script>
+</head>
+<body>
+  <h1>Q4   <a href="fruitq5.html"><img src="next.jpg" width="100" height="50" alt="next button" align="right"/></a>            </h1>
+  <h2><center>Choose the correct name for the fruit:</center></h2>
+<center>
+    <img src="cherries.jpg" width="250" height="250" align="middle" onmouseover="cherries.play()"/>
+  <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <table>
+    <tr>
+<td><p id ="drag1" draggable="true" ondragstart="drag(event)">Apple</p></td>
+<td><p id ="drag2" draggable="true" ondragstart="drag(event)">Strawberry</p></td></tr>
+<tr>
+<td><p id ="drag3" draggable="true" ondragstart="drag(event)">Cherries</p></td>
+<td><p id ="drag4" draggable="true" ondragstart="drag(event)">Raspberry</p></td>
+</tr>
+</table>
+</center>
+</body>
+</html>
