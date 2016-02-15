@@ -97,5 +97,4 @@ Lee Kit Yee |	Fruits Application,MySQL Database,report markdown
 computer application. By using an attractive graphical user interface and multimedia components such as sounds, images and text together with the clarity of the text, size, colours and material are going to attract and help children to learn the basic knowledge in more exciting and interesting way.</p>
 
 **Screenshot**
-<p>![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](https://cloud.githubusercontent.com/assets/16029049/13041761/07ad2e12-d3f5-11e5-9304-9d510972b2ba.jpg)</p>
+<p>![animal1](https://cloud.githubusercontent.com/assets/16029049/13041761/07ad2e12-d3f5-11e5-9304-9d510972b2ba.jpg)</p>
