@@ -1,6 +1,22 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+	<?php
+		session_start();  
+		if(empty($_SESSION['user_name']) OR empty($_SESSION['user_password'])){  
+			echo '<script>Please continue to log in.</script>';
+			echo '<meta http-equiv="refresh" content= "0;url=http://localhost/cls/login.php" />';
+		}else{$username = $_SESSION['user_name'];}
+		
+		if(!$connect = mysql_connect("localhost", "root", ""))
+			die(mysql_error());
+			
+		if (!mysql_select_db("cls", $connect))
+			die(mysql_error());
+		
+		$addscore = "UPDATE temp SET score = score + 1 WHERE user_name='$username';";
+	
+	?>
 <style>
 #div1 {width:240px;height:130px;padding:10px;border:1px solid #aaaaaa; margin-left: auto ;margin-right: auto ;  background-color: #FFFF33;}
 
@@ -28,7 +44,9 @@ function drop(ev) {
   var data = ev.dataTransfer.getData("Text");
   ev.target.appendChild(document.getElementById(data));
   if (ev.dataTransfer.getData('Text')=='drag1')
-  {alert("correct!"); }
+  {
+  	<?php $query = mysql_query($addscore, $connect) or die(mysql_error()); ?>
+  	alert("correct!"); }
 	else
   {alert("wrong!");}
 
