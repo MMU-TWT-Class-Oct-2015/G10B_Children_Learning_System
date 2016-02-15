@@ -1,6 +1,13 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+  <?php
+    session_start();  
+  		if(empty($_SESSION['user_name']) OR empty($_SESSION['user_password'])){  
+  			echo '<script>Please continue to log in.</script>';
+  			echo '<meta http-equiv="refresh" content= "0;url=http://localhost/cls/login.php" />';
+  		}
+  ?>
 <style>
 
 
