@@ -28,14 +28,11 @@
 		
 		$result = mysql_fetch_array($query, MYSQL_NUM);
 		$email = $result[3];
-		$col_hs = $result[4];
-		$fru_hs = $result[5];
-		$ani_hs = $result[6];
-		$add_hs = $result[7];
-		$sub_hs = $result[8];
-		$mul_hs = $result[9];
-		$div_hs = $result[10];
-		$totalsum= $col_hs + $fru_hs + $ani_hs + $add_hs + $sub_hs + $mul_hs + $div_hs;
+		$add_hs = $result[4];
+		$sub_hs = $result[5];
+		$mul_hs = $result[6];
+		$div_hs = $result[7];
+		$totalsum = $add_hs + $sub_hs + $mul_hs + $div_hs;
 		$total_hs = $totalsum . '/700';
 		
 		$change = '';
@@ -312,30 +309,6 @@
 	</div>
 	
 	<table id="score">
-		<thead>
-			<tr>
-				<td>Matching Games</td>
-				<td>Highscore</td>
-				<td></td>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>Animal</td>
-				<td><?php echo $ani_hs; ?></td>
-				<td><a href="animalinstruction.html" target="_self">Play!</a></td>
-			</tr>
-			<tr>
-				<td>Colour</td>
-				<td><?php echo $col_hs; ?></td>
-				<td><a href="colour1.html" target="_self">Play!</a></td>
-			</tr>
-			<tr>
-				<td>Fruit</td>
-				<td><?php echo $fru_hs; ?></td>
-				<td><a href="fruitq1.html" target="_self">Play!</a></td>
-			</tr>
-		</tbody>
 		<thead>
 			<tr>
 				<td>Numbers Games</td>
