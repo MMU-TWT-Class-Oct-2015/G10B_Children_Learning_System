@@ -7,7 +7,8 @@
 _<p>Project title: Children Learning System</P>_
 _<p>Tutorial Group: G10B</p>_
 _<p>Lab tutor: Mr. Nima Saed</p>_
-Project members:	
+_<p>Project members:</p>_	
+
 Name | Student
 -----|--------
 Pang Yee Kent | 1141327564
@@ -17,10 +18,13 @@ Koo Hou Wai | 1141326401
 
 **Introduction**
 <p>This system is created to help children to gain some basic knowledge by using interactive computer application. The target users are mainly children of ages between 4 to 10 years.  The application includes interactive exercise to learn and assess some basic knowledge about numbers, simple mathematical operations, and matching objects with their names. This system works based on suitable material for children to learn with help of using pictures, sounds, and text.</p>
+
 **Objectives**
 <p>The objectives of this project are:
+
 1. Help children to gain basic knowledge through an interactive computer application. 
-  -Children will be able to learn and know the basic knowledge through this application.
+  *Children will be able to learn and know the basic knowledge through this application.
+
 2. Help children to learn basic knowledge on their own.
   -Rather than learning with other people such as parent or teacher, children would be able to learn and know some of the basic knowledge without any guidance from anyone. This system will be able to provide the correct answer for children.
 3. To attract children interest in learning.
@@ -36,12 +40,13 @@ User may log out by click on log out button after they have finish using the sys
 This project were created using HTML5, CSS, JavaScript, PHP and MySQL Database.</p>
 
 **Contribution of the Project**
-<p>Name |	Contribution
+
+Name |	Contribution
 --------|-------------
 Koo Hou Wai |	Counting Objects, Addition/Subtraction, and Multiplication/Division Application
 Pang Yee Kent |	Homepage & User Profile,Sign Up, Log In, Log Out
 Syahrul Hakimi bin Abdullah | Animals Application,Colours Application
-Lee Kit Yee |	Fruits Application,MySQL Database</p>
+Lee Kit Yee |	Fruits Application,MySQL Database
 
 **Conclusion**
 <p>This system were built intended to help children to gain some basic knowledge using interactive
